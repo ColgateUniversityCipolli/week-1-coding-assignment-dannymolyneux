@@ -74,6 +74,7 @@ canvas_collatz(colors = colorPalette("tuscany3"))
   numbers generated to create the plot. Can you see the difference? Make sure to 
   update the caption.\\
 \textbf{Solution:}
+Yes, there are some small differences. The main one I notice is that this figure is shifted quite a bit to the right in relation to the previous figure.
 <<CollatzPlot2, eval=FALSE, size="scriptsize", warning=FALSE, message=FALSE>>=
 set.seed(1313)
 canvas_collatz(colors = colorPalette("tuscany3"))
@@ -131,14 +132,42 @@ canvas_collatz(
   Note that I leave creating the R chunk and figure environment to you here. 
   Make sure that your code is well-formatted and your plot is appropriately scaled.\\
   \textbf{Solution:}
+<<FlamePlot1, eval=FALSE, size='scriptsize', warning=FALSE, message=FALSE>>=
+set.seed(6)
+canvas_flame(colors = colorPalette("kpd"),
+          background = "#dbdbdb",
+  iterations = 1000000,
+  variations = 11,
+  symmetry = -4,
+  blend = TRUE,
+  weighted = FALSE,
+  post = FALSE,
+  final = FALSE,
+  extra = FALSE,
+  display = c("colored", "logdensity"),
+  zoom = 1,
+  resolution = 1000,
+  gamma = 2
+)
+@
+%Code to insert a figure [H]ere
+\begin{figure}[H]
+\begin{center}
+<<echo=FALSE,fig.dim=c(4,4)>>=
+<<FlamePlot1>>
+@
+\caption{Diamond Fractal Flame}
+\label{FlamePlot1}
+\end{center}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % QUESTION 1g
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Use \texttt{citation()} to get the BiBTeX citation for the \texttt{aRtsy}
   package and use \verb|\citep{}| to add a parenthetical citation to the end of
   the sentence below.
-\textbf{Solution:} We created the generative art in Question 1 using the \texttt{aRtsy}
-package for \texttt{R}.
+\textbf{Solution:} 
+We created the generative art in Question 1 using the \texttt{aRtsy}package for \texttt{R} \citep{aRtsy}.
 \end{enumerate}
 
 \newpage

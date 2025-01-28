@@ -132,7 +132,7 @@ canvas_collatz(
   Note that I leave creating the R chunk and figure environment to you here. 
   Make sure that your code is well-formatted and your plot is appropriately scaled.\\
   \textbf{Solution:}
-<<FlamePlot1, eval=FALSE, size='scriptsize', warning=FALSE, message=FALSE>>=
+<<FlamePlot1, eval=FALSE, echo=FALSE, size='scriptsize', warning=FALSE, message=FALSE>>=
 set.seed(6)
 canvas_flame(colors = colorPalette("kpd"),
           background = "#dbdbdb",
@@ -184,16 +184,27 @@ We created the generative art in Question 1 using the \texttt{aRtsy}package for 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Create a numeric vector containing the integers from 0 to 10 inclusive. Hint -- the solution to this problem is one of these values.\\
 \textbf{Solution:}
+<<echo=FALSE>>=
+nums <- 0:10
+print(nums)
+@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % QUESTION 2b
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Complete the algebra to compute $2^{x+1} +2^{x-1}$ for each value in the numerical vector created in step 1. Make sure to save the result to a new numeric vector.\\
 \textbf{Solution:}
+<<echo=FALSE>>=
+Result.vector <- 2^(nums+1) + 2^(nums-1)
+print(Result.vector)
+@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % QUESTION 2c
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Use the which() function to ask which result is 40.\\
 \textbf{Solution:}
+<<echo=FALSE>>=
+which(Result.vector==40)
+@
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % QUESTION 2d
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

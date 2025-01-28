@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.27)  27 JAN 2025 23:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.27)  27 JAN 2025 23:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -293,8 +293,7 @@ LaTeX Info: Redefining \cite on input line 694.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count304
 \l__pdf_internal_box=\box58
-)
-No file HW1.aux.
+) (./HW1.aux)
 \openout1 = `HW1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -356,6 +355,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 66.
+(./HW1.out) (./HW1.out)
 \@outlinefile=\write4
 \openout4 = `HW1.out'.
 
@@ -397,7 +397,7 @@ l.204   \item M
 <figure/unnamed-chunk-6-1.pdf, id=252, 289.08pt x 289.08pt>
 File: figure/unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use figure/unnamed-chunk-6-1.pdf>
-Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf  used on input line 235.
+Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf  used on input line 214.
 (pdftex.def)             Requested size: 289.07928pt x 289.09251pt.
 
 
@@ -405,11 +405,10 @@ Package pdftex.def Info: figure/unnamed-chunk-6-1.pdf  used on input line 235.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.244   \item U
+l.223   \item U
                se \texttt{citation()} to get the BiBTeX citation for the \te... <./figure/unnamed-chunk-5-1.pdf>]
-No file HW1.bbl.
 
-Package natbib Warning: Citation `aRtsy' on page 4 undefined on input line 252.
+Package natbib Warning: Citation `aRtsy' on page 4 undefined on input line 227.
 
 
 
@@ -417,13 +416,13 @@ Package natbib Warning: Citation `aRtsy' on page 4 undefined on input line 252.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.255 \newpage
+l.230 \newpage
                <./figure/unnamed-chunk-6-1.pdf>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 262.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 237.
 (/Users/dannymolyneux/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 262.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 237.
 (/Users/dannymolyneux/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -437,28 +436,19 @@ Package natbib Warning: There were undefined citations.
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `HW1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `HW1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `HW1.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11171 strings out of 475178
- 174713 string characters out of 5764679
- 593054 words of memory out of 5000000
+ 11177 strings out of 475178
+ 174792 string characters out of 5764679
+ 593283 words of memory out of 5000000
  34015 multiletter control sequences out of 15000+600000
  561683 words of font info for 49 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,6n,79p,384b,701s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/dannymolyneux/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></Users/dannymolyneux/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on HW1.pdf (5 pages, 634483 bytes).
+Output written on HW1.pdf (5 pages, 634871 bytes).
 PDF statistics:
  398 PDF objects out of 1000 (max. 8388607)
  357 compressed objects within 4 object streams

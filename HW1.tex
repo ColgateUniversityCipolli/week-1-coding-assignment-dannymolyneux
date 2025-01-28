@@ -270,8 +270,6 @@ We created the generative art in Question 1 using the \texttt{aRtsy}package for 
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{verbatim}
 ## [1] 5
-##  [1]    2.5    5.0   10.0   20.0   40.0   80.0  160.0  320.0  640.0 1280.0
-## [11] 2560.0
 \end{verbatim}
 \end{kframe}
 \end{knitrout}
@@ -280,11 +278,13 @@ We created the generative art in Question 1 using the \texttt{aRtsy}package for 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item What is the solution? That is, what value of x yields $2^{x+1} +2^{x-1} = 40$?\\
 \textbf{Solution:}
+The which() function told us that the fifth element of the vector yields 40. The fifth element of our vector of integers is 4. 
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   % QUESTION 2e
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \item Explain why this approach wouldn't work for something like $3^{x+2} + 5 (3^x) = 84$ where the solution is $x \approx 1.6309$.\\
 \textbf{Solution:}
+This approach wouldn't work because our original vector is a vector of integers from 0 to 10. 1.6309 is not an integer, so we wouldn't even get 84 in our new vector that computes the algebraic equation.
 \end{enumerate}
 \end{enumerate}
 

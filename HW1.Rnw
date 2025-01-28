@@ -132,7 +132,7 @@ canvas_collatz(
   Note that I leave creating the R chunk and figure environment to you here. 
   Make sure that your code is well-formatted and your plot is appropriately scaled.\\
   \textbf{Solution:}
-<<FlamePlot1, eval=FALSE, echo=FALSE, size='scriptsize', warning=FALSE, message=FALSE>>=
+<<FlamePlot1, eval=FALSE, size='scriptsize', warning=FALSE, message=FALSE>>=
 set.seed(6)
 canvas_flame(colors = colorPalette("kpd"),
           background = "#dbdbdb",
@@ -220,4 +220,5 @@ This approach wouldn't work because our original vector is a vector of integers 
 \end{enumerate}
 \end{enumerate}
 
+\bibliography{bibliography}
 \end{document}

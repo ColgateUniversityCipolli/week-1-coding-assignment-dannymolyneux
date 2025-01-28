@@ -205,7 +205,28 @@ Yes, there are some small differences. The main one I notice is that this figure
   Note that I leave creating the R chunk and figure environment to you here. 
   Make sure that your code is well-formatted and your plot is appropriately scaled.\\
   \textbf{Solution:}
-
+\begin{knitrout}\scriptsize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{set.seed}\hldef{(}\hlnum{6}\hldef{)}
+\hlkwd{canvas_flame}\hldef{(}\hlkwc{colors} \hldef{=} \hlkwd{colorPalette}\hldef{(}\hlsng{"kpd"}\hldef{),}
+          \hlkwc{background} \hldef{=} \hlsng{"#dbdbdb"}\hldef{,}
+  \hlkwc{iterations} \hldef{=} \hlnum{1000000}\hldef{,}
+  \hlkwc{variations} \hldef{=} \hlnum{11}\hldef{,}
+  \hlkwc{symmetry} \hldef{=} \hlopt{-}\hlnum{4}\hldef{,}
+  \hlkwc{blend} \hldef{=} \hlnum{TRUE}\hldef{,}
+  \hlkwc{weighted} \hldef{=} \hlnum{FALSE}\hldef{,}
+  \hlkwc{post} \hldef{=} \hlnum{FALSE}\hldef{,}
+  \hlkwc{final} \hldef{=} \hlnum{FALSE}\hldef{,}
+  \hlkwc{extra} \hldef{=} \hlnum{FALSE}\hldef{,}
+  \hlkwc{display} \hldef{=} \hlkwd{c}\hldef{(}\hlsng{"colored"}\hldef{,} \hlsng{"logdensity"}\hldef{),}
+  \hlkwc{zoom} \hldef{=} \hlnum{1}\hldef{,}
+  \hlkwc{resolution} \hldef{=} \hlnum{1000}\hldef{,}
+  \hlkwc{gamma} \hldef{=} \hlnum{2}
+\hldef{)}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
 %Code to insert a figure [H]ere
 \begin{figure}[H]
 \begin{center}
@@ -288,4 +309,5 @@ This approach wouldn't work because our original vector is a vector of integers 
 \end{enumerate}
 \end{enumerate}
 
+\bibliography{bibliography}
 \end{document}
